@@ -1,80 +1,136 @@
-body{    font-family: "Poppins", sans-serif;}
+body{font-family: "Poppins", sans-serif;}
 header
-{margin-bottom: 2%;
-height: 95px;width: 100%;position: fixed; background-color: #fff;margin-top: -1% ;box-shadow: 10px 10px 20px #aaaaaa;  }
-header section{    margin-top: 1.5%;}
-#logo
-{float: left;} 
+    {
+        margin-bottom: 2%;
+        height: 95px;
+        width: 100%;
+        position: fixed;
+        background-color: #fff;
+        margin-top: -1% ;
+        box-shadow: 10px 10px 20px #aaaaaa;  
+    }
+header section{margin-top: 1.5%;}
+#logo{float: left;} 
 #logo p
-{float: right;
-          margin: 4% 0% 0% 0%;
-    color: #00a651;
-    font-size: 40px;}
+    {
+        float: right;
+        margin: 4% 0% 0% 0%;
+        color: #00a651;
+        font-size: 40px;        
+    }
 #icon
-{    float: left;
-    margin-left: 7%;
-    margin-top: 1%;
-    font-size: 22px;
-}
+    {    
+        float: left;
+        margin-left: 7%;
+        margin-top: 1%;
+        font-size: 22px;
+    }
 #icon a{text-decoration: none;color: #000;}
 #icon a:hover{color:#e45447; }
 
-    nav
-    {float: right;width: 60%;    margin-top: 2%;
-    margin-right: -15%;}
-    nav a 
-    {    text-decoration: none;
-    margin-right: 7%;color: #000;font-weight: 550;}
-    nav a:hover {
-  color: #e45447;
-}
-#head{position: static;height: auto;padding-bottom: 6%;}
-.active{
-  color: #e45447;
-}
-#cover img{    width: 100%;
-    height: 450px;}
-    #profile img{    width: 17%;
-    height: 283px;
-    margin: -13% 0% 0% 69%;}
-
-    #name{    margin: -10% 0% 0% 25%;
-    float: left;font-weight: 700}
-
-    #name h1{    font-size: 40px;
-    margin:0px;
-    color: #222222;
-    font-family: monospace;
+nav
+    {
+        float: right;
+        width: 60%;    
+        margin-top: 2%;
+        margin-right: -15%;        
     }
-    #name b {color:#e45447; }
-    #sideimg img{    width: 55%;
-    height: auto;}
+nav a 
+    {
+        text-decoration: none;
+        margin-right: 7%;
+        color: #000;
+        font-weight: 550;
+    }
+nav a:hover {color: #e45447;}
+#head
+    {
+        position: static;
+        height: auto;
+        padding-bottom: 6%;
+    }
+.active{color: #e45447;}
+#cover img
+    {    
+        width: 100%;
+        height: 450px;
+    }
+#profile img
+    {    
+        width: 17%;
+        height: 283px;
+        margin: -13% 0% 0% 69%;
+    }
 
-    #sidearticle{float: right;
-    margin: -47% 17% 0% 0%;width: 25%; text-align: justify;}
+#name
+    {    
+        margin: -10% 0% 0% 25%;
+        float: left;
+        font-weight: 700
+    }
 
-    #sidearticle h2{font-size: 53px;
-    color: #222222;}
+    #name h1
+    {   
+        font-size: 40px;
+        margin:0px;
+        color: #222222;
+        font-family: monospace;
+    }
+#name b {color:#e45447; }
+#sideimg img
+    {   
+        width: 55%;
+        height: auto;
+    }
 
-    #blog{display: flex;}
-    #blog article{box-shadow: -10px 9px 9px #aaaaaa;width: 25%;height:400px;background-color:#f1f1f1;text-align: justify;padding: 0px 35px 0px 35px;}
+#sidearticle
+    {
+        float: right;
+        margin: -47% 17% 0% 0%;
+        width: 25%; 
+        text-align: justify;
+    }
+
+#sidearticle h2
+    {
+        font-size: 53px;
+        color: #222222;
+    }
+#blog{display: flex;}
+#blog article
+    {
+        box-shadow: -10px 9px 9px #aaaaaa;
+        width: 25%;
+        height:400px;
+        background-color:#f1f1f1;
+        text-align: justify;
+        padding: 0px 35px 0px 35px;
+    }
 #blog article img{margin-left: 20%;}
 #blog article h4{text-align: center;color: #e45447;}
-#blog article a{text-decoration: none;
-    color: #a57230;}
-    #blog article p {font-family: monospace;}
-    #title{font-size: 55px;
-    color: #e45447;
-    font-weight: 700;
-    margin-top: -5%;
-    text-align: center;}
-    #footertitle{font-size: 55px;
-    color: #e45447;
-    font-weight: 700;
-    margin-top: 5%;
-    text-align: center;}
-
-    #contact section{    margin-top: -4%;}
+#blog article a
+    {
+        text-decoration: none;
+        color: #a57230;
+    }
+#blog article p {font-family: monospace;}
+#title
+    {
+        font-size: 55px;
+        color: #e45447;
+        font-weight: 700;
+        margin-top: -5%;
+        text-align: center;
+    }
+#footertitle
+    {
+        font-size: 55px;
+        color: #e45447;
+        font-weight: 700;
+        margin-top: 5%;
+        text-align: center;
+    }
+#contact section{margin-top: -4%;}
 
 input[type=text]{
   width: 100%;
@@ -86,91 +142,103 @@ input[type=text]{
   margin-bottom: 16px;
   resize: vertical;
 }
-input[type=email]{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-input[type=number]{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
+input[type=email]
+    {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+input[type=number]
+    {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
 
-input[type=submit] {
-  background-color: #e45447;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+input[type=submit]
+    {
+        background-color: #e45447;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
 
-input[type=submit]:hover {
-  background-color: #e45447;
-}
-form{width: 50%;
-    float: right;
-    margin-top: 6%;}
+input[type=submit]:hover {background-color: #e45447;}
+form
+    {
+        width: 50%;
+        float: right;
+        margin-top: 6%;
+    }
 /*legend{margin: 14px 0px;
     text-align: center;
     font-weight: 600;
     color: #222222;}*/
-iframe{    border: 0;
-    margin: 7% 0% 0% 3%;
-        height: 266px;}
-        #authName{margin-top: 3% !important;}
-        #authName a{text-decoration: none;color:#e45447;font-weight: 600;float: right; }
-        #authName b {float: right;}
+iframe
+    {    
+        border: 0;
+        margin: 7% 0% 0% 3%;
+        height: 266px;
+    }
+#authName{margin-top: 3% !important;}
+#authName a{text-decoration: none;color:#e45447;font-weight: 600;float: right; }
+#authName b {float: right;}
 
 
 
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #e45447;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
+.button 
+    {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #e45447;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+.button span 
+    {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+.button span:after 
+    {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
 
-.button:hover span {
-  padding-right: 25px;
-}
+.button:hover span 
+    {
+        padding-right: 25px;
+    }
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+.button:hover span:after
+    {
+        opacity: 1;
+        right: 0;
+    }
