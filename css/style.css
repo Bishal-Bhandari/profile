@@ -10,7 +10,7 @@ header
         box-shadow: 10px 10px 20px #aaaaaa;  
     }
 header section{margin-top: 1.5%;}
-#logo{float: left;} 
+#logo{float: left;margin-top: -0.5%;} 
 #logo p
     {
         float: right;
@@ -18,12 +18,14 @@ header section{margin-top: 1.5%;}
         color: #00a651;
         font-size: 40px;        
     }
+#logo img{margin-top: 2%;}
 #icon
     {    
-        float: left;
-        margin-left: 7%;
-        margin-top: 1%;
+        float: none;
+        margin-left: 10%;
+        margin-top: 2%;
         font-size: 22px;
+        width: 40%;
     }
 #icon a{text-decoration: none;color: #000;}
 #icon a:hover{color:#e45447; }
