@@ -7,7 +7,7 @@ header
         position: fixed;
         background-color: #fff;
         margin-top: -1% ;
-        box-shadow: 10px 10px 20px #aaaaaa;  
+        /*box-shadow: 10px 10px 20px #aaaaaa;*/  
     }
 header section{margin-top: 1.5%;}
 #logo{float: left;margin-top: -0.5%;} 
@@ -52,6 +52,8 @@ nav a:hover {color: #e45447;}
         padding-bottom: 6%;
     }
 .active{color: #e45447;}
+
+#cover{width: 100%;margin: 0%;}
 #cover img
     {    
         width: 100%;
