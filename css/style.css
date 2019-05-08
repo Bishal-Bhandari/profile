@@ -68,7 +68,7 @@ nav a:hover {color: #e45447;}
 
 #name
     {    
-        margin: -10% 0% 0% 25%;
+        margin: -10% 0% 0% 5%;
         float: left;
         font-weight: 700
     }
@@ -107,23 +107,23 @@ nav a:hover {color: #e45447;}
         width: 25%;
         height:400px;
         background-color:#f1f1f1;
-        text-align: justify;
+        text-align: center;
         padding: 0px 35px 0px 35px;
     }
-#blog article img{margin-left: 20%;}
+#blog article img{margin:auto;}
 #blog article h4{text-align: center;color: #e45447;}
 #blog article a
     {
         text-decoration: none;
         color: #a57230;
     }
-#blog article p {font-family: monospace;}
+#blog article p {text-align: justify;font-size: 13px;}
 #title
     {
         font-size: 55px;
         color: #e45447;
         font-weight: 700;
-        margin-top: -5%;
+        margin-top: 0%;
         text-align: center;
     }
 #footertitle
@@ -182,7 +182,7 @@ input[type=submit]
 input[type=submit]:hover {background-color: #e45447;}
 form
     {
-        width: 50%;
+        width:50%;
         float: right;
         margin-top: 6%;
     }
@@ -195,6 +195,7 @@ iframe
         border: 0;
         margin: 7% 0% 0% 3%;
         height: 266px;
+        width:45%;
     }
 #authName{margin-top: 3% !important;}
 #authName a{text-decoration: none;color:#e45447;font-weight: 600;float: right; }
